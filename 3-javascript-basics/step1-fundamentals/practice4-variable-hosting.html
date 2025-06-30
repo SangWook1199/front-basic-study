@@ -35,13 +35,13 @@
       }
       // alert(a);// var => function level scope
       function letTest(num) {
-        // alert(b); // var 와 다르게 error 
+        // alert(b); // var 와 다르게 error
         if (num > 0) {
           let b = 1;
         }
-       // alert(b); //error let 은 block level scope
-          console.log(b);
-       // 선언된 자신의 block 내에서만 사용 가능 
+        // alert(b); //error let 은 block level scope
+        console.log(b);
+        // 선언된 자신의 block 내에서만 사용 가능
       }
     </script>
   </body>
